@@ -1,0 +1,10 @@
+library(readxl)
+exercicio1 <- read_excel("exercicio1.xls")
+X = exercicio1$`Taxas de juros`
+mean(X)
+median(X)
+sd(X)
+var(X)
+min(X)
+max(X)
+quantile(X)
